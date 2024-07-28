@@ -1,0 +1,48 @@
+body{
+    background-color: #cbb099;
+}
+.navbar{
+    background-color: #cf9b6f;
+}
+.navbar-brand{
+    font-size: 40px;
+    font-weight: 10px;
+}
+
+.nav-item{
+    font-size: 20px;
+    display: flex;
+    float: right;
+}
+
+.nav-item a{
+    color: #B43F3F;
+}
+
+.nav-item a:hover{
+    color: white;
+}
+
+.image{
+    border-radius: 50px;
+    border: 2px solid #914F1E;
+}
+
+.title{
+    color:#B43F3F ;
+}
+.name{
+    color: white;
+}
+
+.img-fluid{
+    width: 150px;
+    height: 100px;
+    border-radius: 50%;
+    
+}
+
+.img{
+    width : "500"; 
+    height:"800";
+}

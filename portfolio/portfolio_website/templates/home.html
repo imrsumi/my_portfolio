@@ -1,0 +1,143 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content1 %}
+
+<div class="row my-5">
+  <div class="col-12 d-flex justify-content-center align-items-center">
+    <div class="circular-image-container">
+
+      <img class="image" src="{% static 'images/img.jpg' %}" alt="" width="300px">
+
+    </div>
+
+  </div>
+</div>
+
+<div class="col-12 text-center">
+  <h4 class="title">Hii !, My Name is </h4>
+  <h1 class="name">SUMITHRA RASU</h1>
+
+</div>
+<div id="about">
+  <hr>
+<div class="row my-5">
+  <div class="btn col-4 d-flex justify-content-center align-items-center">
+    <button type="button" class="btn"
+    style="padding: 10px;  width: 170px;  border: 2px solid white; background-color: brown; color: white;"><a href="{% static 'resume/Certificate.pdf' %}" target="_blank" style="text-decoration: none; color: white;">Resume</a></button>
+  </div>
+  
+  <div class="col-7 text-left text-light" >
+    <h1>About</h1>
+    <p style="font-size: 20px;">I am a budding software developer with a solid foundation in key programming
+      technologies.
+      My qualifications include proficiency in HTML and CSS for building structured and
+      responsive web pages, and JavaScript for implementing interactive features.
+      I have experience with Python and Django, which enables me to develop robust web
+      applications and handle complex backend tasks efficiently. Additionally,
+      I am skilled in using Bootstrap to design modern, mobile-first web interfaces and
+      have a strong grasp of MySQL and SQL for managing and querying databases.
+      My enthusiasm for technology and commitment to learning drive
+      my continuous growth and readiness to contribute effectively to innovative projects.
+    </p>
+  </div>
+</div>
+
+</div>
+<div class="row my-2">
+  <div id="skills">
+    <hr>
+  <h2 style="color: white; margin-top: 10px;">Skills</h2>
+  <div class="d-flex justify-content-center align-items-center">
+    <img class="img-fluid" src="{% static 'images/python.png' %}" alt="python" />
+
+    <img class="img-fluid" src="{% static 'images/html.png' %}" alt="html" />
+
+    <img class="img-fluid" src="{% static 'images/css.png' %}" alt="css" />
+
+    <img class="img-fluid" src="{% static 'images/bootstrap.jpg' %}" alt="bootstrap" />
+
+    <img class="img-fluid" src="{% static 'images/js.png' %}" alt="javascript" />
+    <img class="img-fluid" src="{% static 'images/django.png' %}" alt="django">
+
+    <img class="img-fluid" src="{% static 'images/mysql.png' %}" alt="mysql">
+  </div>
+  </div>
+</div>
+<br>
+<div id="projects">
+  <hr>
+<div>
+  <h2 style="color: white;" id="projects">Projects</h2>
+
+  <div class="row my-2">
+    <div class="col-6">
+      <img src="{% static 'images/mysql.png' %}" width="500" height="400">
+      <h4>Login Form</h4>
+    </div>
+    <div class="col-6">
+      <img src="{% static 'images/mysql.png' %}" width="500" height="400">
+      <h4>Login Form</h4>
+    </div>
+    <div class="col-6">
+      <img src="{% static 'images/mysql.png' %}" width="500" height="400">
+      <h4>Login Form</h4>
+    </div>
+    <div class="col-6">
+      <img src="{% static 'images/mysql.png' %}" width="500" height="400">
+      <h4>Login Form</h4>
+    </div>
+    <div class="col-6">
+      <img src="{% static 'images/mysql.png' %}" width="500" height="400">
+      <h4>Login Form</h4>
+    </div>
+    <div class="col-6">
+      <img src="{% static 'images/mysql.png' %}" width="500" height="400">
+      <h4>Login Form</h4>
+    </div>
+</div>
+  </div>
+</div>
+
+<div class="row my-2">
+  <div class="col-4 text-center my-5 text-light">
+    <h1 style="font-size: 40px;">Visit</h1>
+    <h3>My Works and Progress</h3>
+    <div class="col-12 d-flex justify-content-center align-items-center">
+      <a href="https://linkedin.com/in/imrsumi/" target="_blank" class="ms-3">
+        <img src="{% static 'images/linkedin.png' %}" alt="linkedin" width="50px" style="border-radius: 50%;">
+      </a>
+
+      <a href="https://github.com/imrsumi" target="_blank" class="ms-3">
+        <img src="{% static 'images/github.png' %}" alt="github" width="50px" style="border-radius: 50%;">
+      </a>
+
+      <a href="https:leetcode.com/u/imrsumi/" target="_blank" class="ms-3">
+        <img src="{% static 'images/leetcode.jpg' %}" alt="leetcode" width="50px" style="border-radius: 50%;">
+      </a>
+
+      <a href="https://geeksforgeeks.org/user/sumithra7ja2/" target="_blank" class="ms-3">
+        <img src="{% static 'images/gfg.png' %}" alt="geeks for geeks" width="50px" style="border-radius: 50%;">
+      </a>
+
+      <a href="https://imrsumi.neocities.org/" target="_blank" class="ms-3">
+        <img src="{% static 'images/neocities.png' %}" alt="neocities" width="50px" style="border-radius: 50%;">
+      </a>
+    </div>
+  </div>
+  <div class="col-5 text-light offset-3 my-5" style="background-color: brown;">
+    <div class="container">
+        <h1 id="contact">Contact</h1>
+        <div class="conatiner-items">
+         <h4>Mail: <p>sumithrauma2003@gmail.com</p></h4>
+        </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+
+</div>
+
+</div>
+{% endblock content1 %}
